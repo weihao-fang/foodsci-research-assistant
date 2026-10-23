@@ -1,0 +1,7 @@
+{
+  "tasks": [
+    {"id": "raw-summary", "mode": "raw", "input": "SYNTHETIC_raw.csv", "reference_group": "control"},
+    {"id": "digestion-summary", "mode": "digestion", "input": "SYNTHETIC_digestion.csv"},
+    {"id": "doi-status", "mode": "doi", "input": "SYNTHETIC_doi.csv"}
+  ]
+}

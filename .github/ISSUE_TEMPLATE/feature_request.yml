@@ -1,0 +1,13 @@
+name: 功能或方法建议
+description: 说明希望完成的具体科研工作与交付
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: 研究方向、现有材料和希望得到的成果
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: 当前做法哪里不够用，可公开的示例或方法来源

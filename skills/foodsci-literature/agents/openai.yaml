@@ -1,0 +1,3 @@
+interface:
+  display_name: "FoodSci 文献与综述"
+  short_description: "检索核验生物食品文献，按问题综合证据并撰写综述；区分检索记录、书目身份、全文支持和同研究多报告。"

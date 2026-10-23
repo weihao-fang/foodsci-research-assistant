@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "weihao fang"
+  },
+  "description": "Food science literature verification, experimental design, bilingual writing, domain peer review, and submission preparation.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "brandColor": "#176B52",
+        "capabilities": [],
+        "category": "Productivity",
+        "composerIcon": "./assets/icon.svg",
+        "defaultPrompt": [
+          "启动 FoodSci 工作流：先检查我的文件、数据结构和可用工具，再选择文献、实验分析或写作流程。",
+          "请分析我上传的模拟消化或 RAW264.7 原始数据，区分技术重复与独立实验，列出证据和缺失信息。",
+          "根据我提供的真实结果进行中英文科研写作，并审查引用、统计表述与投稿要求。"
+        ],
+        "developerName": "weihao fang",
+        "displayName": "FoodSci Research Assistant",
+        "logo": "./assets/icon.svg",
+        "longDescription": "六个生物、食品及交叉科研入口，合并文献综述、研究实验设计、数据分析、写作润色与审稿投稿，共享可扩展方法和真实证据记录。提供Codex技能与豆包聊天指引，实际工具能力由宿主决定；限非商业学习科研使用。",
+        "shortDescription": "食品科学文献、实验分析与科研写作"
+      },
+      "onboardingSkill": "./skills/foodsci-research-assistant/SKILL.md"
+    }
+  },
+  "keywords": [
+    "food-science",
+    "literature",
+    "digestion",
+    "RAW264.7",
+    "scientific-writing",
+    "experimental-design",
+    "antioxidants",
+    "polysaccharides",
+    "proteins",
+    "peer-review"
+  ],
+  "name": "foodsci-research-assistant",
+  "version": "0.7.0",
+  "license": "LicenseRef-FoodSci-Research-Noncommercial-1.0"
+}

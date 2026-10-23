@@ -1,0 +1,9 @@
+experiment_id,plate_id,well,group,endpoint,value,blank,unit
+SYNTHETIC-E1,P1,A1,control,viability_signal,1.1,0.1,AU
+SYNTHETIC-E1,P1,A2,control,viability_signal,1.1,0.1,AU
+SYNTHETIC-E1,P1,B1,treatment,viability_signal,0.9,0.1,AU
+SYNTHETIC-E1,P1,B2,treatment,viability_signal,0.9,0.1,AU
+SYNTHETIC-E2,P1,A1,control,viability_signal,1.3,0.1,AU
+SYNTHETIC-E2,P1,A2,control,viability_signal,1.3,0.1,AU
+SYNTHETIC-E2,P1,B1,treatment,viability_signal,1.18,0.1,AU
+SYNTHETIC-E2,P1,B2,treatment,viability_signal,1.18,0.1,AU

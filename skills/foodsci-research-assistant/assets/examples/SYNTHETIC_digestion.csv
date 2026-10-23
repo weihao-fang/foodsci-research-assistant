@@ -1,0 +1,5 @@
+experiment_id,sample_id,stage,replicate_id,readout,value,blank,unit,dilution_factor
+SYNTHETIC-E1,FORMULATION-A,gastric,T1,validated_concentration,6,1,mg/L,2
+SYNTHETIC-E1,FORMULATION-A,gastric,T2,validated_concentration,8,1,mg/L,2
+SYNTHETIC-E2,FORMULATION-A,gastric,T1,validated_concentration,9,1,mg/L,2
+SYNTHETIC-E2,FORMULATION-A,gastric,T2,validated_concentration,11,1,mg/L,2
