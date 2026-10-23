@@ -10,6 +10,8 @@
 
 ## 2. 选一个小任务
 
+初次试用可先拿[简短润色原稿](../examples/polishing-quickstart/input.md)，交付可与[本次中英文定稿](../examples/polishing-quickstart/output.md)对照；也可在[首页三个例子](../README.md#先看三个使用例子)中选实验设计或数据分析。均为合成或虚构演示，当前Skill版本为0.8.1。
+
 0.8.0另提供两份实际执行的SYNTHETIC新例子：[配方与工艺任务](../examples/formulation-design/input.md)→[可执行设计](../examples/formulation-design/output.md)；[原始读数任务](../examples/processing-analysis/task-b-analysis.md)→[计算与英文Results](../examples/processing-analysis/output.md)。后者附固定教学数据的实际代码和结果，可在自己的新输出目录复算，不是新增通用分析器。
 
 优先试用公开资料、最小脱敏段落或明确标记的合成样例。下列三条任选其一。

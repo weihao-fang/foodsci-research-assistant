@@ -2,42 +2,67 @@
 
 # FoodSci Research Assistant
 
-**面向生物、食品及交叉领域的通用科研 Skill。**
+**论文润色、文献综述、实验设计与数据分析，一套生物食品科研 Skill。**
 
-从研究构思、课题申请，到文献、实验、数据、代码、图表、论文与学术交流，按你的实际目标组织方法和工具。纯生物、纯食品或新的交叉课题都可从同一入口处理，无需先匹配某条预设工作流。
+从一段原稿、一项课题或一份数据开始，按你手头的材料推进科研工作。纯生物、纯食品或新的交叉需求都可从同一入口处理，无需先匹配预设工作流。
 
 **0.8.1** · Codex Skill / 六入口套件 / 豆包聊天版 · 非商业学习与科研
 
 [立即下载](docs/DOWNLOADS.md) · [Codex 安装](docs/INSTALL_CODEX.md) · [豆包使用](docs/INSTALL_DOUBAO.md) · [功能与研究场景](docs/FEATURES.md)
 
-## 先看一个短例子
+<a id="先看一个短例子"></a>
 
-**SYNTHETIC合成演示：已实际运行代码复算，不是真实实验发现。**
+## 先看三个使用例子
 
-**同一组读数，湿基升高20.5%，干基降低4.3%。这会直接改变论文怎么写。**
+以下均为合成或虚构教学演示，每例附原始材料与交付结果。选一个与你手头工作接近的任务，安装后就能试。
 
-附上[原始数据](examples/processing-analysis/task-b-raw.csv)和[实验记录](examples/processing-analysis/task-b-analysis.md)，这样问：
+### 1. 贴一段论文，得到中英文定稿
 
-```text
-使用 $foodsci-research-assistant：
-请分析这4批苹果渣浆对照与加热处理的Folin读数，检查“加热提高酚类含量”的判断，
-交付计算结果、一段英文Results和最值得补做的实验。
-```
+**这样问：**“使用FoodSci润色这段Results，交付中英文定稿，保留数据和科学含义，删去套话。”
 
-| 计量基础 | 对照 | 加热后 | 组均值相对变化 |
-| --- | ---: | ---: | ---: |
-| 湿基，mg GAE/g 湿浆料 | 4.150 ± 0.342 | 5.000 ± 0.392 | **+20.5%** |
-| 干基，mg GAE/g 干物质 | 20.497 ± 0.043 | 19.613 ± 0.294 | **−4.3%** |
+**原稿节选：**
 
-均值±批间SD；独立n=4个配对批次，技术复孔先平均。变化为`100×(加热组均值/对照组均值−1)`。
+> 值得注意的是，在本研究中，我们对4°C贮藏7天后的草莓样品进行了失重率的测定，结果发现与未涂膜组相比，采用壳聚糖—果胶涂膜的处理组失重率从7.2%降低到了4.8%，这表明这种涂膜处理在降低贮藏期间失重率方面具有一定的积极作用。
 
-**得到的判断：**湿基Folin反应当量升高，干基降低；这些数据尚不能证明结合态酚类释放。后续优先补质量/干物质收支与游离/结合态分级测定。
+**中文定稿节选：**
 
-**英文Results示例：**
+> 在4°C贮藏7天后，壳聚糖—果胶涂膜组草莓的平均失重率为4.8%，低于未涂膜组的7.2%。
 
-> Heating increased Folin-reactive equivalents from 4.150 to 5.000 mg GAE/g wet slurry, whereas dry-basis values decreased from 20.497 to 19.613 mg GAE/g dry matter (n = 4 paired batches). These data do not establish the release of bound phenolics.
+**英文定稿节选：**
 
-一次提问，衔接**数据复核 → 专业判断 → 英文写作 → 后续实验建议**。[查看完整分析与复算代码](examples/processing-analysis/output.md) · **[安装后拿这份数据试一次](docs/INSTALL_CODEX.md)**
+> After storage at 4°C for 7 days, mean mass loss was lower in strawberries coated with chitosan–pectin (4.8%) than in uncoated strawberries (7.2%).
+
+删去套话，先给结果；三个独立配对批次的均值口径保留在[完整中英文稿](examples/polishing-quickstart/output.md)中。**[拿这份原稿试一次](examples/polishing-quickstart/input.md)**
+
+### 2. 提出一个课题，得到关键对照与实验方案
+
+**这样问：**“我想减少燕麦发酵凝胶第14天的离水，又不能太硬。请按给定设备和48份上限，设计关键对照并排班。”
+
+| 你要解决的问题 | 示例方案中的具体安排 |
+| --- | --- |
+| 配方怎么比较？ | 选择3个合法混料点，粉料合计保持100%，与2个加热温度交叉比较。 |
+| 发酵还是酸化起作用？ | 每个配方设置活菌发酵与同配方乳酸酸化比较，先验证酸度与加液质量的匹配条件。 |
+| 有限设备怎么排？ | 匹配验证通过后，4天×每天2轮×每轮6份，共48份；跨日平衡加热温度的先后。 |
+| 最后按什么筛选？ | 以第14天离水为主要终点，同时检查硬度是否处于0.8–1.8 N。 |
+
+这是一份尚未开展的候选设计，附前置验证条件、独立单位、取样和分析口径。**[查看原始条件](examples/formulation-design/input.md)** · [看本次精简方案](examples/formulation-design/quick-output.md)
+
+### 3. 上传一份数据，得到可复算的专业判断
+
+**这样问：**“请分析这4批苹果渣浆的Folin读数，检查‘加热提高酚类含量’的判断，并给我英文Results和补实验建议。”
+
+**SYNTHETIC数据已实际运行代码复算：**
+
+| 同一份数据的表达基础 | 加热相对对照的组均值变化 |
+| --- | ---: |
+| 每克湿浆料 | **+20.5%** |
+| 每克干物质 | **−4.3%** |
+
+独立n=4个配对批次，技术复孔先平均；变化为`100×(加热组均值/对照组均值−1)`。
+
+湿基升高、干基降低，计量基础改变了判断；这些结果尚不能证明结合态酚类释放。[完整计算、英文Results与后续实验](examples/processing-analysis/output.md) · **[原始数据](examples/processing-analysis/task-b-raw.csv)** · [实验记录](examples/processing-analysis/task-b-analysis.md)
+
+从你手头的一段文字或脱敏数据开始：**[安装到Codex](docs/INSTALL_CODEX.md)** · [豆包聊天使用](docs/INSTALL_DOUBAO.md) · [选择下载包](docs/DOWNLOADS.md)
 
 ## 具体能帮你做什么？
 
