@@ -10,6 +10,35 @@
 
 [立即下载](docs/DOWNLOADS.md) · [Codex 安装](docs/INSTALL_CODEX.md) · [豆包使用](docs/INSTALL_DOUBAO.md) · [功能与研究场景](docs/FEATURES.md)
 
+## 先看一个短例子
+
+**SYNTHETIC合成演示：已实际运行代码复算，不是真实实验发现。**
+
+**同一组读数，湿基升高20.5%，干基降低4.3%。这会直接改变论文怎么写。**
+
+附上[原始数据](examples/processing-analysis/task-b-raw.csv)和[实验记录](examples/processing-analysis/task-b-analysis.md)，这样问：
+
+```text
+使用 $foodsci-research-assistant：
+请分析这4批苹果渣浆对照与加热处理的Folin读数，检查“加热提高酚类含量”的判断，
+交付计算结果、一段英文Results和最值得补做的实验。
+```
+
+| 计量基础 | 对照 | 加热后 | 组均值相对变化 |
+| --- | ---: | ---: | ---: |
+| 湿基，mg GAE/g 湿浆料 | 4.150 ± 0.342 | 5.000 ± 0.392 | **+20.5%** |
+| 干基，mg GAE/g 干物质 | 20.497 ± 0.043 | 19.613 ± 0.294 | **−4.3%** |
+
+均值±批间SD；独立n=4个配对批次，技术复孔先平均。变化为`100×(加热组均值/对照组均值−1)`。
+
+**得到的判断：**湿基Folin反应当量升高，干基降低；这些数据尚不能证明结合态酚类释放。后续优先补质量/干物质收支与游离/结合态分级测定。
+
+**英文Results示例：**
+
+> Heating increased Folin-reactive equivalents from 4.150 to 5.000 mg GAE/g wet slurry, whereas dry-basis values decreased from 20.497 to 19.613 mg GAE/g dry matter (n = 4 paired batches). These data do not establish the release of bound phenolics.
+
+一次提问，衔接**数据复核 → 专业判断 → 英文写作 → 后续实验建议**。[查看完整分析与复算代码](examples/processing-analysis/output.md) · **[安装后拿这份数据试一次](docs/INSTALL_CODEX.md)**
+
 ## 具体能帮你做什么？
 
 | 功能 | 能帮你完成的工作 |
