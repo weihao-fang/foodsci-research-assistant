@@ -1,6 +1,6 @@
 # 第三方通知
 
-FoodSci的综述与写作规则参考了以下MIT许可材料，保留来源和许可通知：
+FoodSci的科学方法、实验设计、分析、综述与写作规则参考了以下MIT许可材料，保留来源和许可通知：
 
 - Scientific Agent Skills，Copyright (c) 2025 K-Dense Inc.，https://github.com/K-Dense-AI/scientific-agent-skills
 - humanizer，Copyright (c) 2025 Siqi Chen，本轮读取的本地SKILL.md版本3.1.0及同目录LICENSE。

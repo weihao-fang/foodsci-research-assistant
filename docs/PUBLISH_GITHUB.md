@@ -22,6 +22,6 @@ python -B tools/publish_github.py --execute
 
 ## 发布正式版本
 
-在Releases创建与VERSION一致的版本标签，例如v0.7.0，附CHANGELOG摘要和downloads内的ZIP及SHA256SUMS。未真正创建标签前，安装者可以下载已提交的文件或选择实际存在的分支，不应使用不存在的版本链接。
+在Releases创建与VERSION一致的版本标签，例如v0.8.0，附CHANGELOG摘要和downloads内的ZIP及SHA256SUMS。未真正创建标签前，安装者可以下载已提交的文件或选择实际存在的分支，不应使用不存在的版本链接。
 
 留住访客靠具体交付：保持下载入口显眼、演示可读、最小试用可完成；持续记录修复和真实限制，并回复可复现问题。Star/Watch可作为自愿的返回或更新方式，不设置下载门槛。

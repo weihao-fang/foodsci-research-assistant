@@ -1,66 +1,59 @@
-<img src="assets/icon.svg" width="84" height="84" alt="FoodSci 图标">
+<img src="assets/icon.svg" width="76" height="76" alt="FoodSci 图标">
 
 # FoodSci Research Assistant
 
-**面向食品、生物及交叉研究，把论文、实验记录和初稿，推进成有来源的证据表、可执行的研究方案、分析记录和可修改的正文。**
+**面向食品、生物及交叉研究的证据驱动科研 Skill。**
 
-0.7.0 · 六个任务入口 · 源代码可见 · 仅供非商业学习与科研
+围绕 **食品基质 → 加工与发酵 → 结构与消化 → 生物响应** 组织研究，将文献、实验和数据连接成可检验的科学论证。可从任一环节进入，也适用于独立的生物学课题。
 
-你可以只解决眼前的一件事：拆解论文、设计对照、核对数据、写一段 Results，或回复一条审稿意见。总入口根据任务衔接相关模块，无需先学会全部技能名称。
+**0.8.0** · Codex Skill / 六入口套件 / 豆包聊天版 · 非商业学习与科研
 
-[下载与校验](docs/DOWNLOADS.md) · [三分钟试用](docs/QUICKSTART.md) · [完整功能](docs/FEATURES.md) · [Codex 安装](docs/INSTALL_CODEX.md) · [豆包使用](docs/INSTALL_DOUBAO.md)
+[立即下载](docs/DOWNLOADS.md) · [Codex 安装](docs/INSTALL_CODEX.md) · [豆包使用](docs/INSTALL_DOUBAO.md) · [功能与研究场景](docs/FEATURES.md)
 
-## 从你的任务开始
+## 为食品与生物研究建立专业主线
 
-| 你现在有什么 | 入口与任务 | 可以交付什么 |
-| --- | --- | --- |
-| 不确定从哪里开始 | **科研总入口**：明确本次问题、材料和目标 | 本次任务路线，直接进入需要的阶段 |
-| 几篇论文或一个主题 | **文献与综述**：检索筛选、书目及全文证据核验、按问题综合 | 来源与筛选记录、证据表、矛盾点、综述提纲或正文 |
-| 好论文或课题想法 | **研究与实验设计**：拆主张和实验、比较替代解释、确定关键对照 | 研究路线、最小判别试验、独立单位、取样终点与分析计划 |
-| 原始表格与实验记录 | **数据分析**：核对样品层级、单位和适用比较，按实际工具执行 | 数据审计、代码和运行记录、结果表与图；未运行则明确交付方案 |
-| 结果表或中英文初稿 | **写作与润色**：组织论证、起草章节、翻译精修、去套话和过度防御表达 | 可修改正文、摘要、图注或双语定稿，保留数字和统计含义 |
-| 稿件、修稿或期刊目标 | **审稿与投稿**：查贡献、方法统计和证据链，核对当前官方要求 | 可定位且有关闭标准的问题、逐 ID 复审、投稿材料或作者回复 |
+| 研究主线 | FoodSci 的专业落点 |
+| --- | --- |
+| **结构—加工—消化—功能** | 连接蛋白、多糖、食品材料与3D打印，区分结构表征、消化暴露与功能证据，确定最值得补充的对照与终点。 |
+| **发酵—代谢—宿主响应** | 串联菌株、底物转化、代谢与菌群信息，处理组学注释、批次与组成型数据，明确细胞、斑马鱼和小鼠证据的解释层级。 |
+| **保鲜—贮藏—生产放大** | 围绕时间、温度、配方与工艺组织设计，识别重复测量、独立生产批次、代理指标和真实应用终点。 |
 
-这是六个实际入口。文献与综述、规划与设计、写作与润色、审稿与投稿分别合并使用；细分参考仍保留在总入口资源中。只做局部编辑也可以，详见[功能与任务示例](docs/FEATURES.md)。
+Scientific Agent Skills 的设计、分析与科学交流方法已转化为领域决策规范。FoodOn、FoodData Central、UniProt、dbCAN、QIIME 2、MetaboLights、GNPS、ZFIN/MGI等资源用于规范术语、注释与验证路径；[资源手册](skills/foodsci-research-assistant/references/food-bio-resources.md)说明具体用途、来源及适用边界。
 
-## 先看三个实际交付
+## 一套技能，贯通研究与成稿
 
-**以下是已有 0.6.0 合成演示，全部标为 SYNTHETIC，不是真实科研结果，也不代表本次 0.7.0 行为验证。**
+**证据检索与综述综合 · 课题拆解与实验设计 · 数据分析与科研图表 · 中英文论文写作与精修 · 专业审稿与修订。**
 
-**六份资料，怎样写成有判断的综述？** 输入覆盖加工、模拟消化、细胞和小鼠的六份报告。输出映射为五项研究，识别同一实验的补充检测，保留阴性结果与仅摘要可得的范围，交付提纲、正文和证据表。[看输入与输出](docs/demos/literature-review.md)
+总入口按任务衔接相关模块，保留来源、实验单位和结果定位。既可推演整项研究，也可只完成一张证据表、一段 Results 或一条审稿回复。[完整功能](docs/FEATURES.md) · [合成任务演示](docs/QUICKSTART.md) · [能力来源](skills/foodsci-research-assistant/references/scientific-adaptation.md)
 
-**原始读数，怎样保留独立样本数？** 历史离线工作流运行 RAW264.7 和消化样例，分别得到归一化均值 85% 与 15 mg/L，独立 n 均为 2；技术孔不增加 n，非法 DOI 保留未核验状态。[查看样例与复现命令](docs/demos/offline-analysis.md)
+看两份0.8.0实际交付的**合成示例**：[48份配方—加工—贮藏试验怎样排班](examples/formulation-design/output.md)；[湿基升高、干基降低，怎样计算并写成英文Results](examples/processing-analysis/output.md)。它们是SYNTHETIC测试，不是真实科研发现。
 
-**润色会不会把研究写过头？** 原稿把发酵上清写成纯 β-葡聚糖，把 mg/mL 写成 g/mL，把技术孔写成 n=9。实际双语定稿依据记录纠错，保留 n=3、−8.0 个百分点、CI 跨零与 P=0.08，去掉未测通路和人体疗效结论。[对照原稿与定稿](docs/demos/bilingual-polishing.md)
+## 在 Codex 中安装
 
-想看纯生物主题，可比较[原代人成纤维细胞输入](examples/biology-results/input.md)和[英文 Results 输出](examples/biology-results/output.md)：保留供者配对与实测终点，不强加食品用途。当前版测试、历史演示与未验收范围见[验证记录](docs/VALIDATION.md)，不换算成普遍准确率。
+将下面内容直接发给 Codex：
 
-## 下载后，先完成一个小任务
+```text
+请使用 $skill-installer 安装这个 GitHub Skill：
+https://github.com/weihao-fang/foodsci-research-assistant/tree/main/skills/foodsci-research-assistant
+保留全部参考、脚本和样例；如有旧版，先检查安装路径和版本再更新。
+安装后确认读取的版本是0.8.0，并报告实际安装路径。
+```
 
-在[下载页](docs/DOWNLOADS.md)选择适合自己环境的包，并核对版本与校验值。六入口套件的五个任务入口共享总文件夹资源，应一起保留；总入口 `foodsci-research-assistant` 自带全部核心资源，也能独立完成任务。
+安装后这样开始：
 
-按实际环境阅读 [Codex 安装](docs/INSTALL_CODEX.md)或[豆包使用说明](docs/INSTALL_DOUBAO.md)。两者的使用方式不同，不应把技能 ZIP 当作通用客户端安装包。安装后的[三分钟试用](docs/QUICKSTART.md)可从公开资料、脱敏段落或合成样例开始：
+```text
+使用 $foodsci-research-assistant：
+我研究发酵植物蛋白，已有文献和预实验结果。
+请梳理“加工—结构—消化—功能”的证据链，提出最有判别力的下一步实验，
+并将现有结果写成一段英文 Results。只采用实际材料，不补造结果。
+```
 
-> 请用 FoodSci 处理我附上的资料，交付一张“主张—证据—支持范围”表和一段可修改正文。保留相反结果与未核验项；没有实际读取或执行的工作明确标注。只完成这次任务。
+也可[下载单Skill包](downloads/foodsci-codex-0.8.0.zip?raw=true)手动安装；需要独立选择任务入口时使用[六入口套件](downloads/foodsci-suite-0.8.0.zip?raw=true)。[安装、更新与故障检查](docs/INSTALL_CODEX.md)遵循[OpenAI官方技能说明](https://learn.chatgpt.com/docs/build-skills)。
 
-只想润色可说：“润色这一段，先给主要判断，再给证据；保留所有数字、单位、n、CI、P、阴性结果和关联或推测程度，直接交付定稿。”
+## 验证与持续更新
 
-## 食品与生物怎样衔接
+检索、计算和文件处理使用宿主实际具备的工具。固定脚本提供RAW264.7与模拟消化的有限描述汇总；其他统计需匹配真实数据并实际运行。资源手册提供查询与解释规则，不附带第三方数据库或账号连接。豆包提供自包含聊天文本，原生技能导入仍待实机验证。
 
-可围绕蛋白、多糖、加工基质、食品 3D 打印、发酵、消化营养、细胞、斑马鱼、小鼠、功能评价、保鲜贮藏和生产放大组织设计与证据，也能处理 RNA/通路、菌群与多组学、预测等交叉问题中的论证和分析计划。
+[验证记录](docs/VALIDATION.md) · [更新日志](CHANGELOG.md) · [升级说明](docs/UPGRADING.md) · [方法扩展](skills/foodsci-research-assistant/references/ADD_METHOD.md)
 
-例如，发酵—组分—流变—打印课题可拆出每步需要测什么、哪个对照能区分解释；纯生物稿件保留自身研究情境。方法目录与领域指导不表示每类数据都有专用计算器。[查看方法目录](skills/foodsci-research-assistant/references/methods.md)
-
-## 真实边界
-
-随包固定脚本只自动计算 RAW264.7 与模拟消化的有限描述性统计，不生成推断统计。其他分析依赖真实数据、研究设计及宿主实际软件，运行后才报告数值。Python 脚本要求 3.10+；文件、联网、作图和导出能力由当前宿主决定。
-
-DOI 元数据匹配不代替全文证据核验；系统检索、元分析和最新期刊要求需要相应来源与实际执行。FoodSci 不连接仪器或自动建立后台任务，科研输出仍需依据来源和数据复核。
-
-## 更新、反馈与许可
-
-从[更新记录](CHANGELOG.md)查看具体变化，从[升级说明](docs/UPGRADING.md)更新已有安装；[路线图](ROADMAP.md)记录候选方向。想方便回到这里可以 Star；想收到更新，可按自己的通知偏好设置 Watch。
-
-在仓库 Issues 页反馈时，提供版本、宿主、预期、实际表现及最小脱敏示例，格式见[反馈与贡献](CONTRIBUTING.md)。不要公开未发表全文、受试者信息、账号密钥或合作方保密资料。
-
-本项目目前仅供非商业学习与科研，使用、修改和再分发请先阅读[许可证](LICENSE)。第三方 MIT 等许可组件保留各自条件，见[第三方声明](THIRD_PARTY_NOTICES.md)。
+欢迎用最小脱敏例子[反馈问题](CONTRIBUTING.md)。Star方便下次找到，Watch可按自己的偏好接收更新。原创部分限非商业学习与科研，见[LICENSE](LICENSE)；[第三方材料](THIRD_PARTY_NOTICES.md)保留原有许可。

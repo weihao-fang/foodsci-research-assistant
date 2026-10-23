@@ -1,6 +1,6 @@
 # 工作流
 
-## 总入口与子技能协作（0.7.0）
+## 总入口与子技能协作（0.8.0）
 
 由[foodsci-start](../SKILL.md)识别本次目标，调用或读取实际相关子技能，不启动固定全流程。公开版六入口将相关任务分组，下面内部细分模块仍可按需读取。综述使用 literature→[literature-review](literature-review.md)→[polishing](polishing.md)；从论文到课题使用 literature→[research-planning](research-planning.md)→experimental-design；有数据并要成稿时使用[数据分析](data-analysis.md)→writing→polishing。现成文字的翻译润色直接进入 polishing；审稿和投稿仅按任务衔接。
 

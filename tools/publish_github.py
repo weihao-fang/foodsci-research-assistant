@@ -37,7 +37,7 @@ def main():
         run(['git', 'add', '.'])
         email = str(user['id']) + '+' + login + '@users.noreply.github.com'
         run(['git', '-c', 'user.name=' + login, '-c', 'user.email=' + email,
-             'commit', '-m', 'Prepare FoodSci Research Assistant 0.7.0'])
+             'commit', '-m', 'Prepare FoodSci Research Assistant ' + (ROOT / 'VERSION').read_text(encoding='utf-8').strip()])
     else:
         dirty = run(['git', 'status', '--porcelain'], capture=True)
         if dirty.strip():

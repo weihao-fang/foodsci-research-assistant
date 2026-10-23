@@ -3,7 +3,7 @@
   "author": {
     "name": "weihao fang"
   },
-  "description": "Food science literature verification, experimental design, bilingual writing, domain peer review, and submission preparation.",
+  "description": "Evidence-driven food and biology research: matrix-processing-function studies, fermentation and omics, experimental design, analysis and scientific writing.",
   "extensions": {
     "com.openai": {
       "interface": {
@@ -12,32 +12,32 @@
         "category": "Productivity",
         "composerIcon": "./assets/icon.svg",
         "defaultPrompt": [
-          "启动 FoodSci 工作流：先检查我的文件、数据结构和可用工具，再选择文献、实验分析或写作流程。",
-          "请分析我上传的模拟消化或 RAW264.7 原始数据，区分技术重复与独立实验，列出证据和缺失信息。",
-          "根据我提供的真实结果进行中英文科研写作，并审查引用、统计表述与投稿要求。"
+          "请梳理我的食品基质—加工—结构—消化—功能证据链，提出最有判别力的下一步实验。",
+          "按我的发酵批次、配对与时间结构审计原始数据，选择合适分析并保存实际运行结果。",
+          "根据我的真实证据整理综述或精修中英文论文，保留数字、统计含义和模型范围。"
         ],
         "developerName": "weihao fang",
         "displayName": "FoodSci Research Assistant",
         "logo": "./assets/icon.svg",
-        "longDescription": "六个生物、食品及交叉科研入口，合并文献综述、研究实验设计、数据分析、写作润色与审稿投稿，共享可扩展方法和真实证据记录。提供Codex技能与豆包聊天指引，实际工具能力由宿主决定；限非商业学习科研使用。",
-        "shortDescription": "食品科学文献、实验分析与科研写作"
+        "longDescription": "围绕结构—加工—消化—功能、发酵—代谢—宿主响应与保鲜生产组织研究。六个入口联动文献综述、实验拆解设计、数据分析、写作润色和专业审稿，按实际工具执行并追溯证据。提供食品生物资源查询与解释规范；限非商业学习科研使用。",
+        "shortDescription": "食品生物研究：证据链、实验设计、数据分析与论文精修"
       },
       "onboardingSkill": "./skills/foodsci-research-assistant/SKILL.md"
     }
   },
   "keywords": [
     "food-science",
-    "literature",
-    "digestion",
-    "RAW264.7",
-    "scientific-writing",
-    "experimental-design",
-    "antioxidants",
+    "biology",
+    "fermentation",
+    "food-matrix",
     "polysaccharides",
     "proteins",
+    "experimental-design",
+    "data-analysis",
+    "scientific-writing",
     "peer-review"
   ],
   "name": "foodsci-research-assistant",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "license": "LicenseRef-FoodSci-Research-Noncommercial-1.0"
 }

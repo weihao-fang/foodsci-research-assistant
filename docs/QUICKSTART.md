@@ -10,6 +10,8 @@
 
 ## 2. 选一个小任务
 
+0.8.0另提供两份实际执行的SYNTHETIC新例子：[配方与工艺任务](../examples/formulation-design/input.md)→[可执行设计](../examples/formulation-design/output.md)；[原始读数任务](../examples/processing-analysis/task-b-analysis.md)→[计算与英文Results](../examples/processing-analysis/output.md)。后者附固定教学数据的实际代码和结果，可在自己的新输出目录复算，不是新增通用分析器。
+
 优先试用公开资料、最小脱敏段落或明确标记的合成样例。下列三条任选其一。
 
 **综述：**附上[合成资料输入](../examples/literature-review/input.md)，复制：
@@ -34,7 +36,7 @@
 | 执行状态 | 计划、待运行代码和已实际运行的结果区分清楚 |
 | 交付范围 | 得到本次要求的可修改产物，没有被无关流程替代 |
 
-可与[综述历史输出](../examples/literature-review/output.md)或[双语历史输出](../examples/bilingual-polishing/output.md)比较结构和事实保留方式，不要求逐字一致。这些是已有 0.6.0 合成演示，不代表本次 0.7.0 新行为验证，也不是科研结论。
+可与[综述历史输出](../examples/literature-review/output.md)或[双语历史输出](../examples/bilingual-polishing/output.md)比较结构和事实保留方式，不要求逐字一致。这些是已有 0.6.0 合成演示，不代表本次 0.8.0 新行为验证，也不是科研结论。
 
 ## 想继续试分析或研究设计
 

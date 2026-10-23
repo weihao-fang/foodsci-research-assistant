@@ -1,8 +1,8 @@
 ---
 name: foodsci-research-assistant
-description: 生物、食品及交叉方向科研总入口，按任务联动文献核验、综述整理撰写、研究规划、实验设计、数据分析、论文写作、专业润色、审稿和投稿；稿件默认适配领域术语并检查去防御与自然表达。
+description: 食品、生物及交叉科研总入口，围绕结构加工与消化功能、发酵代谢与宿主响应、保鲜生产开展证据检索、实验拆解设计、数据分析、综述与论文写作润色和审稿；适配真实研究模型与领域术语。
 metadata:
-  version: "0.7.0"
+  version: "0.8.0"
   derived-from-version: "0.6.0"
 ---
 
@@ -11,6 +11,8 @@ metadata:
 按用户的研究任务选择下面的路线。只加载本次相关参考，先交付已有信息可以支持的工作；只追问会影响计算、方法选择或结论的缺失条件。
 
 这是独立 Skill，所需指引、方法、脚本及合成样例均在本文件所在文件夹内。不要依赖已安装的 FoodSci 插件、其他同名技能、某个固定磁盘路径或未连接的数据库。
+
+食品问题按“基质—过程—结构/暴露—响应”定位本次需要证明的连接；生物课题使用自己的系统与终点。按问题选择判别实验、设计匹配的分析与成稿，不要求每个课题补齐整条链。具体决策见[Scientific方法适配](references/scientific-methods.md)。
 
 ## 选择路线
 
@@ -21,6 +23,7 @@ metadata:
 | 拆解论文实验、研究问题、证据链与关键判别试验 | [研究拆解与规划](references/research-planning.md)与[共用研究记录](assets/research-analysis-template.md) |
 | 已有数据审计、统计选择、实际计算与复现 | [数据分析](references/data-analysis.md)，按设计和实际工具选择方法 |
 | 食品与材料、微生物、营养、工程、组学/预测等交叉研究 | [交叉领域桥接](references/crossdisciplinary-bridges.md)，再按食品方法适配 |
+| 食品身份、蛋白/糖酶、微生物代谢或动物表型的资源查询与解释 | [食品与生物资源](references/food-bio-resources.md)，按需使用[查询记录模板](assets/resource-ledger-template.csv)，核对ID、版本和来源范围 |
 | 图表证据组织、实际作图与数据/图注检查 | [证据图表](references/figure-evidence.md) |
 | 设计实验、检查已有数据和分析方法 | [实验设计](references/experimental-design.md)，再按[方法目录](references/methods.md)选择材料/体外、打印、发酵、斑马鱼/小鼠、功能、保鲜、生产或自定义方法 |
 | 从证据起草论文、章节、摘要和图注 | [科研写作](references/writing.md) |
@@ -71,5 +74,7 @@ DOI 默认离线。需要真实 Crossref 核验且当前请求允许联网时，
 安装、依赖及离线运行说明见[安装与使用](references/install.md)。行为验收规格见[通用场景](references/behavioral-cases.md)和[实验扩展场景](references/experimental-design-cases.md)；这些规格不代表所有宿主都已经实测。
 
 科研机制来自对Nature与Academic Research技能的实际分析，食品与交叉适配及舍弃规则见[能力来源](references/research-capabilities.md)。本包已含必要指引，不要求另装来源Skill或连接其账号服务。
+
+0.8.0对Scientific系列的设计、统计、组学与科学交流方法作了集中适配，采用与舍弃项见[本轮来源](references/scientific-adaptation.md)。资源查询结果用于形成有来源的注释或待验证解释；数据库记录、序列预测和候选谱图匹配不代替本研究的实验结果。
 
 综述、领域写作和润色还吸收Scientific Agent Skills、anti-defensive-writing与humanizer的适用做法，见[写作来源](references/writing-sources.md)。[去防御规则](references/style-rules.md)包含用户指定完整原文；这些规则改善表达，不删有意义的阴性结果、关联措辞、统计不确定性或真实范围限定。
