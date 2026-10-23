@@ -2,8 +2,8 @@
 name: foodsci-experimental-design
 description: "拆解生物食品论文实验与研究问题，规划关键判别试验，并设计因素对照、独立重复、终点和预定分析。"
 metadata:
-  version: "0.8.0"
-  requires-foodsci-research-assistant: "0.8.0"
+  version: "0.8.1"
+  requires-foodsci-research-assistant: "0.8.1"
 ---
 
 # FoodSci 研究与实验设计

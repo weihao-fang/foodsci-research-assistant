@@ -11,10 +11,10 @@
 | exploratory-data-analysis、statistical-analysis、scientific-visualization | 数据字典/来源、独立单位、设计匹配的比较、效应与不确定性、图表证据与可复现运行；见[分析流程](analysis-workflow.md)及[证据图表](figure-evidence.md) |
 | scikit-bio、bulk-rnaseq | 组成型菌群与RNA计数分流、ID与注释版本、距离/离散程度、分组验证和多重性；只采用实际问题所需部分，见[方法决策](scientific-methods.md) |
 | literature-review、citation-management、research-lookup | 分块检索、题录与全文支持分开、同研究多报告、可追溯证据包与不可合并判断；见[文献核验](literature.md)与[综合方法](synthesis-methods.md) |
-| scientific-writing，并结合原有humanizer及anti-defensive-writing | 先锁定真实结果再组织论证，按材料/过程/结构/消化/模型逐连接综合，精修后反向核对科学含义；见[写作](writing.md)、[润色](polishing.md)及[领域表达](domain-writing.md) |
+| scientific-writing，并结合原有humanizer及anti-defensive-writing | 先锁定真实结果再组织论证，按实际研究证据逐连接综合（食品研究如材料/过程/结构/消化/模型），精修后反向核对科学含义；见[写作](writing.md)、[润色](polishing.md)及[领域表达](domain-writing.md) |
 | database-lookup与官方领域资源 | 稳定ID、版本、查询条件、字段与计量基础；把外部注释转为本研究可验证的问题，见[食品—生物证据桥](food-bio-resources.md) |
 
-食品适配以三条主线组织：结构—加工—消化—功能、发酵—代谢—宿主响应、保鲜—贮藏—生产放大。实际任务只验证需要的连接；纯生物研究使用自身模型，不强加食品用途。资源名录、领域术语和机制示意图均不等于实测证据。
+食品适配的特色示例包括三条主线：结构—加工—消化—功能、发酵—代谢—宿主响应、保鲜—贮藏—生产放大。这些示例不限定可处理的任务；实际任务只验证需要的连接，纯生物研究使用自身模型，不强加食品用途。资源名录、领域术语和机制示意图均不等于实测证据。
 
 ## 取舍与运行范围
 

@@ -2,8 +2,8 @@
 name: foodsci-data-analysis
 description: "审计生物食品已有数据，按独立单位和设计选择适用统计、实际运行与图表复现；无数据或工具时交计划。"
 metadata:
-  version: "0.8.0"
-  requires-foodsci-research-assistant: "0.8.0"
+  version: "0.8.1"
+  requires-foodsci-research-assistant: "0.8.1"
 ---
 
 # FoodSci 数据分析与图表

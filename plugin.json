@@ -3,7 +3,7 @@
   "author": {
     "name": "weihao fang"
   },
-  "description": "Evidence-driven food and biology research: matrix-processing-function studies, fermentation and omics, experimental design, analysis and scientific writing.",
+  "description": "General biology and food-science research assistant: task-driven literature, experiments, data, code, writing and other research outputs.",
   "extensions": {
     "com.openai": {
       "interface": {
@@ -12,15 +12,15 @@
         "category": "Productivity",
         "composerIcon": "./assets/icon.svg",
         "defaultPrompt": [
-          "请梳理我的食品基质—加工—结构—消化—功能证据链，提出最有判别力的下一步实验。",
-          "按我的发酵批次、配对与时间结构审计原始数据，选择合适分析并保存实际运行结果。",
-          "根据我的真实证据整理综述或精修中英文论文，保留数字、统计含义和模型范围。"
+          "请处理我的生物或食品科研任务，按实际目标、材料和可用工具选择适合的方法，不受预设示例限制。",
+          "请分析我提供的真实数据，保留原始结构、独立单位和实际执行记录，再交付需要的结果或代码。",
+          "请根据我的真实材料完成课题申请、论文、学术报告或审稿修改中本次需要的部分。"
         ],
         "developerName": "weihao fang",
         "displayName": "FoodSci Research Assistant",
         "logo": "./assets/icon.svg",
-        "longDescription": "围绕结构—加工—消化—功能、发酵—代谢—宿主响应与保鲜生产组织研究。六个入口联动文献综述、实验拆解设计、数据分析、写作润色和专业审稿，按实际工具执行并追溯证据。提供食品生物资源查询与解释规范；限非商业学习科研使用。",
-        "shortDescription": "食品生物研究：证据链、实验设计、数据分析与论文精修"
+        "longDescription": "面向生物、食品及交叉领域的科研需求，按研究目标、材料、数据和实际工具组合文献、实验、分析、代码、图表、写作及其他科研交付。特色主线与方法目录仅为示例，未预设任务可直接处理；限非商业学习科研使用。",
+        "shortDescription": "生物、食品及交叉科研通用入口"
       },
       "onboardingSkill": "./skills/foodsci-research-assistant/SKILL.md"
     }
@@ -38,6 +38,6 @@
     "peer-review"
   ],
   "name": "foodsci-research-assistant",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "license": "LicenseRef-FoodSci-Research-Noncommercial-1.0"
 }

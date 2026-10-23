@@ -2,8 +2,8 @@
 name: foodsci-peer-review
 description: "审查生物食品稿件的主张、贡献、实验统计和证据，进行逐项修订复审，并按任务核对目标期刊规范与投稿材料。"
 metadata:
-  version: "0.8.0"
-  requires-foodsci-research-assistant: "0.8.0"
+  version: "0.8.1"
+  requires-foodsci-research-assistant: "0.8.1"
 ---
 
 # FoodSci 审稿与投稿

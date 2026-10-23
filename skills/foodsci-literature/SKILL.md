@@ -2,8 +2,8 @@
 name: foodsci-literature
 description: "检索核验生物食品文献，按问题综合证据并撰写综述；区分检索记录、书目身份、全文支持和同研究多报告。"
 metadata:
-  version: "0.8.0"
-  requires-foodsci-research-assistant: "0.8.0"
+  version: "0.8.1"
+  requires-foodsci-research-assistant: "0.8.1"
 ---
 
 # FoodSci 文献与综述

@@ -1,4 +1,4 @@
-# 在 Codex 中安装 FoodSci 0.8.0
+# 在 Codex 中安装 FoodSci 0.8.1
 
 FoodSci 支持生物、食品及交叉方向的科研工作。默认安装总入口即可使用全部内部路线；需要分别点选任务时再安装六入口套件。
 
@@ -6,8 +6,8 @@ FoodSci 支持生物、食品及交叉方向的科研工作。默认安装总入
 
 | 下载内容 | 适用方式 |
 | --- | --- |
-| [foodsci-codex-0.8.0.zip](../downloads/foodsci-codex-0.8.0.zip) | 单包：`foodsci-research-assistant` 总入口及全部资源 |
-| [foodsci-suite-0.8.0.zip](../downloads/foodsci-suite-0.8.0.zip) | 六入口：总入口与五个任务子入口，共享总包资源 |
+| [foodsci-codex-0.8.1.zip](../downloads/foodsci-codex-0.8.1.zip) | 单包：`foodsci-research-assistant` 总入口及全部资源 |
+| [foodsci-suite-0.8.1.zip](../downloads/foodsci-suite-0.8.1.zip) | 六入口：总入口与五个任务子入口，共享总包资源 |
 | [技能源码](../skills/foodsci-research-assistant/SKILL.md) | 在当前仓库查看技能内容与版本 |
 
 套件包含下列六个入口。五个子入口必须与总入口安装在同一技能父目录；不能只取一个子入口后丢弃总包。
@@ -38,7 +38,7 @@ FoodSci 支持生物、食品及交叉方向的科研工作。默认安装总入
 请使用 $skill-installer 安装这个 GitHub Skill：
 https://github.com/weihao-fang/foodsci-research-assistant/tree/main/skills/foodsci-research-assistant
 保留全部参考、脚本和样例；先检查本机安装目标和已有同名版本。
-安装后读取SKILL.md，确认版本为0.8.0并报告实际路径。
+安装后读取SKILL.md，确认版本为0.8.1并报告实际路径。
 ```
 
 只有仓库中确实存在相应版本标签时才指定该标签；初次发布可从实际存在的默认分支安装。

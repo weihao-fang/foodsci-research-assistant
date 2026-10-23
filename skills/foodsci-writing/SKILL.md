@@ -2,8 +2,8 @@
 name: foodsci-writing
 description: "从证据起草生物食品及交叉领域论文、摘要和图注，完成中英文翻译润色、去防御表达与自然表达，保留数字和科学含义。"
 metadata:
-  version: "0.8.0"
-  requires-foodsci-research-assistant: "0.8.0"
+  version: "0.8.1"
+  requires-foodsci-research-assistant: "0.8.1"
 ---
 
 # FoodSci 写作与专业润色

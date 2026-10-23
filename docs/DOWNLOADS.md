@@ -1,13 +1,13 @@
-# 下载 FoodSci 0.8.0
+# 下载 FoodSci 0.8.1
 
 第一次使用Codex，选单Skill包即可；想单独选择任务入口再选六入口套件。豆包普通聊天选聊天版。所有包共享本版规则，按[许可](../LICENSE)用于非商业学习科研。
 
 | 你的环境 | 下载 | 使用方法 |
 | --- | --- | --- |
-| Codex，一个总入口 | [标准单Skill ZIP](../downloads/foodsci-codex-0.8.0.zip?raw=true) | 解压后整体复制总文件夹，见[Codex教程](INSTALL_CODEX.md) |
-| Codex，分别选择任务入口 | [六入口套件 ZIP](../downloads/foodsci-suite-0.8.0.zip?raw=true) | 六个文件夹一起安装，五个任务入口共享总资源 |
-| 豆包普通聊天 | [聊天文本包 ZIP](../downloads/foodsci-doubao-chat-0.8.0.zip?raw=true)、[Markdown](../downloads/FoodSci-豆包聊天版.md?raw=true)、[TXT](../downloads/FoodSci-豆包聊天版.txt?raw=true) | 上传界面允许的格式，否则粘贴；见[豆包教程](INSTALL_DOUBAO.md) |
-| 支持Agent Plugins格式的环境 | [插件包 ZIP](../downloads/foodsci-plugin-0.8.0.zip?raw=true) | 包含六个技能；不是可执行安装程序，也不包含marketplace注册 |
+| Codex，一个总入口 | [标准单Skill ZIP](../downloads/foodsci-codex-0.8.1.zip?raw=true) | 解压后整体复制总文件夹，见[Codex教程](INSTALL_CODEX.md) |
+| Codex，分别选择任务入口 | [六入口套件 ZIP](../downloads/foodsci-suite-0.8.1.zip?raw=true) | 六个文件夹一起安装，五个任务入口共享总资源 |
+| 豆包普通聊天 | [聊天文本包 ZIP](../downloads/foodsci-doubao-chat-0.8.1.zip?raw=true)、[Markdown](../downloads/FoodSci-豆包聊天版.md?raw=true)、[TXT](../downloads/FoodSci-豆包聊天版.txt?raw=true) | 上传界面允许的格式，否则粘贴；见[豆包教程](INSTALL_DOUBAO.md) |
+| 支持Agent Plugins格式的环境 | [插件包 ZIP](../downloads/foodsci-plugin-0.8.1.zip?raw=true) | 包含六个技能；不是可执行安装程序，也不包含marketplace注册 |
 
 豆包工作官方有技能机制，本包原生导入兼容仍待实机核验。账户有明确技能导入入口且接受标准结构时可按界面尝试单Skill包；普通聊天附件上传不等于永久安装。
 
